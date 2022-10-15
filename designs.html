@@ -66,10 +66,6 @@ body {
   color: white;
 }
             
-        
-            
-          
-            
             div.a {
   text-align: center;
 }
@@ -82,6 +78,27 @@ body {
                 text-align: inherit
             }
             
+             .align-right {
+        text-align: right;
+            }
+                 
+        .vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} 
+                 
+      .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);           
+                 
+                 
         </style>
         
 	</head>
@@ -97,21 +114,15 @@ body {
                     </strong>
                     </h1>
                         
-                        <h3>Design Page</h3>
-                    </div>
-                    
-                    <div class="a">
-                    <h5>Designs</h5>
-                    
+                        <h3>Designs </h3>
                     </div>
                 
-                    <div class="c"> 
+                    <div class="center">
                     <ul class="actions">
 							<li><a href="index.html" class="button">HOME</a></li>
-						</ul>
+                        </ul>  
                     </div>
-                    
-                    <p></p>
+                        
 				</div>
 			</header>
 
@@ -121,10 +132,10 @@ body {
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>Take a look at my design work!<br />
-							</h2>
+							<h1>My Design Work<br />
+							</h1>
 						</header>
-						
+						<h3>Take a look at some of images I've created for social media publication and for class projects.</h3>
                         
   <p>Click to change the gallery view!</p>
 <button class="btn" onclick="four()">1</button>
@@ -213,16 +224,17 @@ for (var i = 0; i < btns.length; i++) {
 <!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
+                  
+                    
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
+                </ul>                
+                
+                </div>
 			</footer>
 
 		<!-- Scripts -->
